@@ -3,7 +3,7 @@ import Link from "next/link";
 import { RESUME_URL } from "@/data/constants";
 
 // Replace with "/profile.jpg" once you add your photo to public/
-const PROFILE_IMAGE = "https://placehold.co/400x400/e5e7eb/6b7280?text=Photo";
+const PROFILE_IMAGE = "/photo.jpeg";
 
 export default function IntroSection() {
   return (
@@ -13,11 +13,18 @@ export default function IntroSection() {
       style={{ minHeight: "calc(100dvh - 60px)" }}
     >
       <div className="flex flex-col justify-center gap-6">
+        <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-4xl">
+        Hey there, welcome to my portfolio! 👋
+              </h1>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-          Your Name
+          I'm Ethel  
         </h1>
         <p className="max-w-md text-lg text-gray-600">
-          Software engineer building clean, accessible web experiences.
+        a curious and driven Software Engineer who loves turning complex problems into clean, scalable solutions.
+
+I’m passionate about Full-Stack Engineering, Backend Systems, and AI-driven applications, and I’m especially excited about building software that doesn’t just work — but creates real impact. Whether it’s designing intuitive user experiences, architecting reliable backend systems, or integrating intelligent AI features, I genuinely enjoy bringing ideas to life through code.
+
+Feel free to explore my projects and download my resume below — I’d love to connect!  
         </p>
         <div className="flex flex-wrap gap-4">
           <Link

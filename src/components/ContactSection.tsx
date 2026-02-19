@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { RESUME_URL } from "@/data/constants";
 
-const EMAIL = "your.email@example.com";
-const LINKEDIN = "https://linkedin.com/in/yourprofile";
-const GITHUB = "https://github.com/yourusername";
+const EMAIL = "ethellimjiayee@gmail.com";
+const LINKEDIN = "https://www.linkedin.com/in/ethel-lim-196249292/";
+const GITHUB = "https://github.com/elim0050";
 
 export default function ContactSection() {
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {

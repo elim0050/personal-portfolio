@@ -36,7 +36,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="#intro" className="text-lg font-semibold text-gray-900">
-          Portfolio
+          Ethel's Portoflio
         </a>
 
         {/* Desktop nav */}

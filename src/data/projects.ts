@@ -9,29 +9,26 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    position: "Software Engineer",
-    title: "Project Alpha",
-    description:
-      "A full-stack application for managing tasks and collaboration. Built with modern tools and a focus on performance and accessibility.",
-    skills: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+    position: "Product Owner / Full Stack Developer",
+    title: "AI-Powered Meeting Summarisation Web Application",
+    description:"Led a cross-functional team as Product Owner to deliver an AI-powered meeting summarisation web app using GPT-4 APIs. Designed the UI/UX in Figma and built a full-stack MERN application (React, Node.js/Express, MongoDB). Integrated GPT-4 for automated transcription, summarisation, and translation, and developed RESTful APIs with scalable MongoDB schemas for efficient data retrieval.", 
+    skills: ["React", "TypeScript", "Node.js", "PostgreSQL", "GPT-4", "RESTful APIs", "MongoDB", "Figma", "MERN Stack"],
     link: "#",
     repo: "#",
   },
   {
-    position: "Frontend Developer",
-    title: "Dashboard UI",
-    description:
-      "Analytics dashboard with real-time charts and responsive layout. Clean, minimalist design with B&W/grey palette.",
-    skills: ["React", "Tailwind CSS", "Next.js"],
+    position: "AI Engineer",
+    title: "RNN Models for Automated Recipe Generation",
+    description:"Developed and evaluated six PyTorch-based RNN models for automated recipe generation from input ingredients, improving sequence coherence and ingredient relevance. Preprocessed datasets for structured experimentation and enhanced model performance by 10% (BLEU score) through fine-tuning and advanced mechanisms such as copy and coverage.", 
+    skills: ["PyTorch", "RNN", "BLEU Score", "Fine-tuning", "Copy and Coverage mechanisms","Deep Learning", "Python", "LLM","ML Models"],
     link: "#",
     repo: "#",
   },
   {
-    position: "Full Stack Developer",
-    title: "API Gateway",
-    description:
-      "Central API gateway with rate limiting, authentication, and request routing. Handles high throughput with minimal latency.",
-    skills: ["Node.js", "TypeScript", "Redis", "Docker"],
+    position: "Software Engineer - Full Year Industry Project",
+    title: "AI-Driven Biochemist Robot & MLOps Optimisation",
+    description:"Collaborated with CSL Behring researchers to enhance an AI-powered biochemist robot for precise chemical dispensing using configurable inputs and ML models. Re-architected the MLOps pipeline to improve reliability and deployment efficiency, and implemented a cloud-based Firebase data system, reducing storage usage by ~90% while improving accessibility.", 
+    skills: ["Python", "MLOps", "Firebase", "DevOps", "CI/CD"],
     repo: "#",
   },
 ];
