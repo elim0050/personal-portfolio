@@ -9,29 +9,27 @@ export default function IntroSection() {
   return (
     <section
       id="intro"
-      className="grid min-h-[calc(100vh-60px)] grid-cols-1 content-center gap-8 px-4 pt-20 pb-16 md:grid-cols-2 md:gap-12 md:px-6 md:pt-28 lg:px-8 lg:pt-32"
-      style={{ minHeight: "calc(100dvh - 60px)" }}
+      className="min-h-[calc(100vh-100px)] px-4 py-16 md:px-6 md:py-20 lg:px-8 lg:py-34"
+      style={{ minHeight: "calc(100dvh - 100px)" }}
     >
-      <div className="flex flex-col justify-center gap-6">
-        <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-4xl">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
+        <div className="flex flex-col justify-center gap-6">
+        <h1 className="text-2xl tracking-tight text-gray-900 sm:text-5xl lg:text-3xl">
         Hey there, welcome to my portfolio! 👋
               </h1>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
           I'm Ethel  
         </h1>
-        <p className="max-w-md text-lg text-gray-600">
-        a curious and driven Software Engineer who loves turning complex problems into clean, scalable solutions.
-
-I’m passionate about Full-Stack Engineering, Backend Systems, and AI-driven applications, and I’m especially excited about building software that doesn’t just work — but creates real impact. Whether it’s designing intuitive user experiences, architecting reliable backend systems, or integrating intelligent AI features, I genuinely enjoy bringing ideas to life through code.
-
-Feel free to explore my projects and download my resume below — I’d love to connect!  
+        <p className="max-w-md text-md text-gray-600 text-justify">
+        A curious and driven Software Engineer passionate about building clean, scalable solutions. I enjoy working across Full-Stack, Backend, and AI to create software that makes a real impact.
+        Feel free to explore my projects and download my resume below — I’d love to connect!
         </p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={RESUME_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800"
+            className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-green-600"
           >
             Download Resume
           </Link>
@@ -55,6 +53,7 @@ Feel free to explore my projects and download my resume below — I’d love to 
             unoptimized={PROFILE_IMAGE.startsWith("http")}
           />
         </div>
+      </div>
       </div>
     </section>
   );

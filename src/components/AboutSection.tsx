@@ -15,7 +15,7 @@ export default function AboutSection() {
       id="about"
       className="border-t border-gray-200 bg-gray-50 px-4 py-16 md:px-6 md:py-20 lg:px-8 lg:py-24"
     >
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-6xl">
         <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
           About Me
         </h2>

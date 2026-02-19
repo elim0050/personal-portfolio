@@ -23,7 +23,7 @@ export default function ProjectsSection() {
               <h3 className="mb-2 text-xl font-semibold text-gray-900">
                 {project.title}
               </h3>
-              <p className="mb-4 flex-1 text-sm leading-relaxed text-gray-600">
+              <p className="mb-4 flex-1 text-sm leading-relaxed text-gray-600 text-justify">
                 {project.description}
               </p>
               <div className="mb-4 flex flex-wrap gap-2">

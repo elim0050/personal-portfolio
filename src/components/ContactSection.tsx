@@ -31,21 +31,20 @@ export default function ContactSection() {
 
         <div className="space-y-8">
           <div>
-            <Link
-              href={RESUME_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800"
-            >
-              Download Resume
-            </Link>
-          </div>
-
-          <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-500">
               Links
             </h3>
             <ul className="flex flex-wrap gap-4">
+            <li>
+              <Link
+              href={RESUME_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-green-600"
+            >
+              Download Resume
+            </Link>
+              </li>
               <li>
                 <a
                   href={`mailto:${EMAIL}`}
@@ -79,7 +78,6 @@ export default function ContactSection() {
               </li>
             </ul>
           </div>
-
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-500">
               Send a message
